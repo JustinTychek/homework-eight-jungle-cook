@@ -1,0 +1,29 @@
+<div class="editForm">
+    <h1 class="edit-page-title">Hey there, edit your recipe!</h1>
+
+    <div class="recipe-edit-form">
+        <input type="text" placeholder="Edit Recipe Image">
+        <div class="attach-btn" onclick="">Attach file</div>
+        <input type="text" value="Supreme Pizza" placeholder="Recipe Name">
+        <input type="text" value="Make pizza night super duper out of this…" placeholder="Recipe Description">
+        <input type="text" value="1h 24min" placeholder="Recipe Total Time">
+        <input type="text" value="4 servings" placeholder="Recipe Serving Size">
+
+        <p>Edit Ingredients:</p>
+        <div class="ingredients">
+            <input id="ind1" type="text" placeholder="Ingredient 1">
+            <input id="ind2" type="text" placeholder="Ingredient 2">
+            <input id="ind3" type="text" placeholder="Ingredient 3">
+            <div class="plus-btn" onclick="addIngredient(event)">+</div>
+        </div>
+
+        <p>Edit Instructions:</p>
+        <div class="instructions">
+            <input id="inst1" type="text" placeholder="Ingredient 1">
+            <input id="inst2" type="text" placeholder="Ingredient 2">
+            <input id="inst3" type="text" placeholder="Ingredient 3">
+            <div class="plus-btn" onclick="addInstruction(event)">+</div>
+        </div>
+        <button>Submit Changes</button>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100vh;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.app {
+  height: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 38px;
+  left: 50px;
+  width: 167px;
+  height: 55px;
+  //   background-color: blue;
+  background-image: url(../images/logo.svg);
+}
+
+@font-face {
+  font-family: CaveatReg;
+  src: url(fonts/Caveat-Regular.ttf);
+}
+
+@font-face {
+  font-family: LatoReg;
+  src: url(fonts/Lato-Regular.ttf);
+}

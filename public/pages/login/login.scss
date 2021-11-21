@@ -1,0 +1,79 @@
+.loginPage {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffd972;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: LatoReg;
+  letter-spacing: 1px;
+
+  h1 {
+    letter-spacing: 4px;
+  }
+
+  .form {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    // background-color: blue;
+
+    .input {
+      width: 100%;
+      height: 30px;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      border-bottom: 3px solid black;
+      letter-spacing: 2px;
+    }
+
+    ::placeholder {
+      color: black;
+    }
+
+    .submit {
+      width: 100%;
+      height: 52px;
+      border-radius: 25px;
+      border: none;
+      background-color: #ffd972;
+      box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.226);
+      font-family: CaveatReg;
+      font-size: 25px;
+    }
+  }
+}
+
+.login-form {
+  height: 370px;
+  width: 210px;
+}
+
+.signup-form {
+  height: 490px;
+  width: 275px;
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .loginPage {
+    height: 100%;
+    flex-direction: column;
+
+    .login-form {
+      margin-top: 150px;
+      margin-bottom: 100px;
+    }
+
+    .signup-form {
+      margin-bottom: 150px;
+    }
+  }
+}

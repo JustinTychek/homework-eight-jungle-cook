@@ -1,0 +1,29 @@
+<div class="createRecipe">
+    <h1 class="create-page-title">Hey there, create your recipe!</h1>
+
+    <div class="recipe-create-form">
+        <input type="text" placeholder="Add Recipe Image">
+        <div class="attach-btn" onclick="">Attach file</div>
+        <input type="text" placeholder="Recipe Name">
+        <input type="text" placeholder="Recipe Description">
+        <input type="text" placeholder="Recipe Total Time">
+        <input type="text" placeholder="Recipe Serving Size">
+
+        <p>Enter Ingredients:</p>
+        <div class="ingredients">
+            <input id="ind1" type="text" placeholder="Ingredient 1">
+            <input id="ind2" type="text" placeholder="Ingredient 2">
+            <input id="ind3" type="text" placeholder="Ingredient 3">
+            <div class="plus-btn" onclick="addIngredient(event)">+</div>
+        </div>
+
+        <p>Enter Instructions:</p>
+        <div class="instructions">
+            <input id="inst1" type="text" placeholder="Ingredient 1">
+            <input id="inst2" type="text" placeholder="Ingredient 2">
+            <input id="inst3" type="text" placeholder="Ingredient 3">
+            <div class="plus-btn" onclick="addInstruction(event)">+</div>
+        </div>
+        <button>Create Recipe</button>
+    </div>
+</div>

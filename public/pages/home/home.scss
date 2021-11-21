@@ -1,0 +1,115 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(242, 92, 84, 0.6),
+      rgba(242, 92, 84, 0.6)
+    ),
+    url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .circle-holder {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .little-circle {
+      width: 170px;
+      height: 170px;
+      background-color: #fcbcb8;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 0;
+      margin-bottom: 350px;
+      margin-left: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        text-align: center;
+        font-family: LatoReg;
+        font-size: 12px;
+        width: 120px;
+        font-style: italic;
+      }
+    }
+
+    .big-circle {
+      width: 400px;
+      height: 400px;
+      background-color: #ffd972;
+      border-radius: 50%;
+      z-index: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      h1 {
+        font-family: CaveatReg;
+        margin-bottom: 35px;
+      }
+
+      p {
+        width: 190px;
+        text-align: center;
+        font-family: LatoReg;
+        margin-bottom: -20px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    .circle-holder {
+      .little-circle {
+        margin-bottom: 420px;
+        margin-left: 250px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 465px) {
+  .home {
+    .circle-holder {
+      .little-circle {
+        width: 121px;
+        height: 121px;
+        margin-bottom: 290px;
+        margin-left: 150px;
+
+        p {
+          margin-top: 15px;
+          font-size: 10px;
+          width: 88px;
+        }
+      }
+
+      .big-circle {
+        width: 257px;
+        height: 257px;
+
+        h1 {
+          font-size: 25px;
+        }
+
+        p {
+          font-size: 14px;
+          margin-bottom: -10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jungle Cook</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <a href="#/home" class="logo"></a>
+  <nav>
+    <div class="links">
+      <a href="#/home" class="nav-link">Home</a>
+      <a href="#/browse" class="nav-link">Browse</a>
+      <a href="#/createRecipe" class="nav-link hide">Create Recipe</a>
+      <a href="#/yourRecipes" class="nav-link hide">Your Recipes</a>
+      <a href="#/login" class="nav-link" id="btn-login">Login</a>
+      <!-- <a id="create" href="#">Create User</a> -->
+      <!-- <a id="login" href="#">Log In</a> -->
+      <a id="signout" class="btn-signout" href="#">Logout</a>
+    </div>
+
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+
+  <div id="app"></div>
+
+  <footer>
+    <div class="phone">
+      <p>Copyright © 2019 The Jungle Cook</p>
+      <div class="social-media-2">
+        <img src="images/facebook.svg" alt="">
+        <img src="images/instagram.svg" alt="">
+      </div>
+    </div>
+    <p class="copyright">Copyright © 2019 The Jungle Cook</p>
+    <div class="footer-links">
+      <a href="#/login">Login</a>
+      <a href="#/">Recipes by Category</a>
+      <a href="#/">Privacy and Copyright</a>
+      <a href="#/createRecipe" class="hide">Create Recipe</a>
+      <a href="#/yourRecipes" class="hide">Your Recipes</a>
+    </div>
+
+    <div class="social-media">
+      <img src="images/facebook.svg" alt="">
+      <img src="images/instagram.svg" alt="">
+    </div>
+  </footer>
+
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/9.1.3/firebase-app-compat.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/9.1.3/firebase-auth-compat.js"></script>
+  <script defer src="/__/firebase/9.1.3/firebase-database-compat.js"></script>
+  <script defer src="/__/firebase/9.1.3/firebase-firestore-compat.js"></script>
+  <script defer src="/__/firebase/9.1.3/firebase-functions-compat.js"></script>
+  <script defer src="/__/firebase/9.1.3/firebase-messaging-compat.js"></script>
+  <script defer src="/__/firebase/9.1.3/firebase-storage-compat.js"></script>
+  <script defer src="/__/firebase/9.1.3/firebase-analytics-compat.js"></script>
+  <script defer src="/__/firebase/9.1.3/firebase-remote-config-compat.js"></script>
+  <script defer src="/__/firebase/9.1.3/firebase-performance-compat.js"></script>
+  <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+  <script src="lib/jquery-3.6.0.min.js"></script>
+  <script src="app/model.js"></script>
+  <script src="app/app.js"></script>
+</body>
+
+</html>

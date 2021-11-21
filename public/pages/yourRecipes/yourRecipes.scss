@@ -1,0 +1,201 @@
+.yourRecipes {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #a7e8bdb2, #a7e8bdc4),
+    url(../images/recipe-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 150px;
+
+  .recipe-page-title {
+    font-family: CaveatReg;
+    padding-left: 100px;
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+
+  .your-recipes-holder {
+    margin: 0 auto;
+    width: 87%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .your-recipes-container {
+      width: 610px;
+      height: 310px;
+      margin-bottom: 50px;
+      display: flex;
+      margin-right: 5px;
+      // background-color: blue;
+      position: relative;
+
+      .view-recipe {
+        width: 140px;
+        height: 50px;
+        font-size: 27px;
+        cursor: pointer;
+        background-color: #ffd972;
+        color: black;
+        border-radius: 30px;
+        box-shadow: 3px 7px 20px rgba(0, 0, 0, 0.527);
+        font-family: CaveatReg;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 30%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-decoration: none;
+      }
+
+      img {
+        width: 350px;
+        height: 310px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+
+      .recipe-info {
+        width: 260px;
+        height: 310px;
+        border-radius: 30px;
+        padding: 20px 0;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: LatoReg;
+
+        h1 {
+          text-align: center;
+          border-bottom: 3px solid black;
+          font-size: 25px;
+        }
+
+        .recipe-par {
+          font-size: 13px;
+          width: 164px;
+        }
+
+        .time-holder {
+          height: 30px;
+          width: 120px;
+          margin-bottom: 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .timer-img {
+            height: 100%;
+            width: 30px;
+            background-image: url(../images/time.svg);
+          }
+
+          p {
+            font-size: 13px;
+          }
+        }
+
+        .serving-holder {
+          height: 30px;
+          width: 120px;
+          // background-color: pink;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .serving-img {
+            height: 100%;
+            width: 30px;
+            background-image: url(../images/servings.svg);
+          }
+
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .bottom-buttons-holder {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        position: absolute;
+        bottom: -70px;
+        left: 26px;
+
+        .edit-btn {
+          width: 140px;
+          height: 50px;
+          font-size: 27px;
+          cursor: pointer;
+          background-color: #ffd972;
+          color: black;
+          border-radius: 30px;
+          box-shadow: 3px 7px 20px rgba(0, 0, 0, 0.527);
+          font-family: CaveatReg;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1430px) {
+  .yourRecipes {
+    .your-recipes-holder {
+      width: 610px;
+    }
+  }
+}
+
+@media all and (max-width: 665px) {
+  .yourRecipes {
+    .recipe-page-title {
+      padding-left: 35px;
+    }
+
+    .your-recipes-holder {
+      width: 85%;
+      .your-recipes-container {
+        flex-direction: column;
+        height: 610px;
+
+        .view-recipe {
+          left: 50%;
+          top: 25%;
+          transform: translate(-50%, -50%);
+        }
+
+        img {
+          width: 100%;
+        }
+
+        .recipe-info {
+          width: 100%;
+
+          .recipe-par {
+            width: 55%;
+          }
+        }
+
+        .bottom-buttons-holder {
+          width: 85%;
+          left: 33px;
+
+          .edit-btn {
+            width: 47%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "User_Recipes": [
+    {
+      "recipeName": "Pot Roast"
+    },
+    {
+      "recipeName": "Hamburger"
+    },
+    {
+      "recipeName": "Chicken Pot Pie"
+    },
+    {
+      "recipeName": "Chicken Tenders"
+    }
+  ],
+
+  "Public_Recipes": [
+    {
+      "recipeImg": "../../images/recipe-pizza.jpg",
+      "recipeName": "Supreme Pizza",
+      "recipeDescription": "Make Pizza night super duper out of this world with homemade pizza. This recipe is supreme with vegetables and two types of meat. Yum!",
+      "recipeTime": "1h24min",
+      "recipeServings": "4 servings"
+    },
+    {
+      "recipeImg": "../../images/recipe-burger.jpg",
+      "recipeName": "Classic Burger",
+      "recipeDescription": "Sink your teeth into a delicious restaurant-style, hamburger recipe made from lean beef. Skip the prepackaged patties and take the extra time to craft up your own and that little extra effort will be worth it",
+      "recipeTime": "30min",
+      "recipeServings": "4 servings"
+    },
+    {
+      "recipeImg": "../../images/recipe-pilaf.jpg",
+      "recipeName": "Chicken Biryani",
+      "recipeDescription": "Chicken Biryani is a bold and flavorful Indian dish with crazy tender bites of chicken with bell peppers in a deliciously spiced and fragrant rice.",
+      "recipeTime": "1h15min",
+      "recipeServings": "6 servings"
+    },
+    {
+      "recipeImg": "../../images/recipe-chowmein.jpg",
+      "recipeName": "Ch. Chow Mein",
+      "recipeDescription": "A great Chow Mein comes down to the sauce - it takes more than just soy sauce and sugar! Jam packed with a surprising amount of hidden vegetables, customize this Chicken Chow Mein recipe using your protein of choice!",
+      "recipeTime": "20min",
+      "recipeServings": "4 servings"
+    }
+  ]
+}
